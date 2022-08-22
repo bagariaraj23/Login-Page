@@ -1,4 +1,5 @@
-const axios = require("axios").default;
+// const axios = require("axios").default;
+
 const formDOM = document.querySelector(".form");
 const usernameInputDOM = document.querySelector(".username-input");
 const passwordInputDOM = document.querySelector(".password-input");

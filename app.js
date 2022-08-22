@@ -8,8 +8,8 @@ const connectDB = require("./db/connect");
 
 const mainRouter = require("./routes/main");
 var bodyParser = require("body-parser");
-const notFoundMiddleware = require("./middlewares/not-found");
-const errorHandlerMiddleware = require("./middlewares/error-handler");
+const notFoundMiddleware = require("./middleware/not-found");
+const errorHandlerMiddleware = require("./middleware/error-handler");
 
 //middleware
 app.use(express.static("./public"));
